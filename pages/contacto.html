@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,19 +13,36 @@
 </head>
 <body>
     
-    <header>
-        <h1 class="h1-colores">Contacto</h1>
-        <div class="linksHeader">
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="cartera.html">Cartera</a></li>
-                    <li><a href="servicios.html">Servicios</a></li>
-                    <li><a href="sobremi.html">Sobre mi</a></li>                
-                    <li><a href="#">Contactos</a></li>
-                </ul>                
-            </nav>
-        </div>
+    <header class="headerIndex">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
+
+            <div class="container-fluid">
+            <!-- Brand -->
+                <div class="navbar-brand">
+                    <h1 class="h1-colores">Facundo Alvarez Amado</h1>
+                    <p class="descripcion-inicio">Asesor inmobiliario</p>
+                </div>
+
+                <!-- Boton hamburguesa -->
+                <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menuPrincipal">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <div class="collapse navbar-collapse" id="menuPrincipal">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="cartera.html">Cartera</a></li>
+                            <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                            <li class="nav-item"><a class="nav-link" href="sobremi.html">Sobre mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Contactos</a></li>
+                        </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main>
@@ -69,6 +87,6 @@
             </div>
         </section>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>

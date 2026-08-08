@@ -4,32 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facundo C21</title>   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+
 </head>
 <body>
     
     <header class="headerIndex">
-        
-        <div>
-            <h1 class="h1-colores">Facundo Alvarez Amado</h1>
-            <p class="descripcion-inicio">Asesor inmobiliario</p>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
 
-        <div class="linksHeader">
-            <nav>
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="pages/cartera.html">Cartera</a></li>
-                    <li><a href="pages/servicios.html">Servicios</a></li>
-                    <li><a href="pages/sobremi.html">Sobre mi</a></li>
-                    <li><a href="pages/contacto.html">Contactos</a></li>
-                </ul>
-            </nav>
-        </div>
+            <div class="container-fluid">
+            <!-- Brand -->
+                <div class="navbar-brand">
+                    <h1 class="h1-colores">Facundo Alvarez Amado</h1>
+                    <p class="descripcion-inicio">Asesor inmobiliario</p>
+                </div>
+
+                <!-- Boton hamburguesa -->
+                <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menuPrincipal">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <div class="collapse navbar-collapse" id="menuPrincipal">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pages/cartera.html">Cartera</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pages/servicios.html">Servicios</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pages/sobremi.html">Sobre mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pages/contacto.html">Contactos</a></li>
+                        </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main class="mainIndex-proyecto">
@@ -52,12 +67,12 @@
             </article>
         </section>
 
-        <div class="contenedorImagen-inicio">
+        <section class="contenedorImagen-inicio">
             <figure class="imagen-inicio-proyecto">
                 <img src="img/imgg.png" alt="Logo C21 Errico Ostrofsky">
                 <figcaption class="textoImg-inicio">Copyright C21 Errico Ostrofsky </figcaption>
             </figure>    
-        </div>
+        </section>
     </main>
 
     <footer>
@@ -77,5 +92,6 @@
             </div>
         </section>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
